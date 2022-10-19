@@ -1,9 +1,12 @@
+import {Header} from './components/Header';
+import { Article } from './components/Article';
 
 function App() {
   return (
-    <div>
-        <h1>Meu blog</h1>
-    </div>
+    <>
+      <Header />
+      <Article />
+    </>
   );
 }
 
