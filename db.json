@@ -26,6 +26,15 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
       "author": "Beltrano de tal",
       "date": "Aug 6, 2020"
+    },
+    {
+      "id": 5,
+      "category": "Notebook Alien",
+      "title": "Está custando quase um rim",
+      "resume": "Está quase 15 mil",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
+      "author": "Vulquimar Silva",
+      "date": "Out 24, 2022"
     }
   ]
 }

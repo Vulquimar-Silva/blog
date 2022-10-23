@@ -1,20 +1,17 @@
-import React from 'react'
-
-export const Post = () => {
+export const Post = ({ category, title, description, author, date}) => {
   return (
     <div className='post mx-2'>
       <div className="img-post"></div>
-      <h5>Tecnologia</h5>
-      <h3>O guia definitivo do Blog</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Non est ipsum, repudiandae cum corporis dolores eaque,
-        id ratione nesciunt dicta in maxime sint nobis! Dolore quae ut iusto nulla! Sit.
+      <h5>{category}</h5>
+      <h3>{title}</h3>
+      <p className='mt-1'>
+        {description}
       </p>
       <div className='flex pt-2'>
         <div className='img-profile'></div>
         <div className='desc-profile ml-2'>
-          <h6 className='color-blue'>Vulquimar Silva</h6>
-          <p>Aug 12, 2021 - 10 min read</p>
+          <h6 className='color-blue'>{author}</h6>
+          <p>{date}</p>
         </div>
       </div>
     </div>
