@@ -1,12 +1,12 @@
 import {Header} from './components/Header';
-//import { Article } from './components/Article';
-import {Main} from './pages/Main'
+//import {Main} from './pages/Main'
+import Routes from './routes.js'
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Routes />
     </>
   );
 }
